@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Moon Eyewear</title>
+    <script
+      src="https://kit.fontawesome.com/7d132a8ea4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!--navbar-->
+    <section id="header">
+      <a href="#">
+        <img src="/images/logo/to-the-moon1.PNG" alt="Logo" class="logo"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html" class="active"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <!--start page-->
+    <!-- <section id="page-header" class="contact-header">
+      <h2>#Let's_talk</h2>
+      <p>LEAVE A MESSAGE, We love to hear from you!</p>
+    </section> -->
+
+    <!-- Shopping list -->
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>REMOVE</td>
+            <td>IMAGE</td>
+            <td>PRODUCT</td>
+            <td>PRICE</td>
+            <td>QUANTITY</td>
+            <td>SUBTOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product1.JPG" alt="" /></td>
+            <td>Balenciaga BB0157S-004 Silver</td>
+            <td>248.50$</td>
+            <td><input type="number" value="1" /></td>
+            <td>248.50$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product10.JPG" alt="" /></td>
+            <td>Kuboraum New Z14</td>
+            <td>430$</td>
+            <td><input type="number" value="1" /></td>
+            <td>430$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product12.JPG" alt="" /></td>
+            <td>Kuboraum X5 WH</td>
+            <td>355$</td>
+            <td><input type="number" value="1" /></td>
+            <td>355$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product9.JPG" alt="" /></td>
+            <td>Versace VE 2234</td>
+            <td>411$</td>
+            <td><input type="number" value="1" /></td>
+            <td>411$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product7.JPG" alt="" /></td>
+            <td>Prada PR 17WS</td>
+            <td>215$</td>
+            <td><input type="number" value="1" /></td>
+            <td>215$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product11.JPG" alt="" /></td>
+            <td>Mykita Cateye</td>
+            <td>248.50$</td>
+            <td><input type="number" value="1" /></td>
+            <td>248.50$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product8.JPG" alt="" /></td>
+            <td>Versace 2235</td>
+            <td>217$</td>
+            <td><input type="number" value="1" /></td>
+            <td>217$</td>
+          </tr>
+          <tr>
+            <td>
+              <a href=""
+                ><i class="far fa-times-circle" class="remove-item"></i
+              ></a>
+            </td>
+            <td><img src="/images/product/product2.JPG" alt="" /></td>
+            <td>Zaha Hadid FLUXX</td>
+            <td>350$</td>
+            <td><input type="number" value="1" /></td>
+            <td>350$</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!--Footer of HomePage-->
+    <footer class="section-p1">
+      <div class="column">
+        <img
+          src="/images/logo/to-the-moon.PNG"
+          alt="Websit Logo"
+          id="second-logo"
+        />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> 562 Wellington Road,Street 32, San Francisco
+        </p>
+        <p><strong>Phone: </strong>+123456789</p>
+        <p><strong>Hours: </strong>10:00 - 19:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="column">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help Center</a>
+      </div>
+
+      <div class="column install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="/images/pay/app.JPG" alt="" />
+          <img src="/images/pay/play.JPG" alt="" />
+        </div>
+        <p>From App Store or Google Play</p>
+        <img src="/images/pay/pay.PNG" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>@2022, Tech2 etc - HTML CSS JS Ecommerce Template</p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
